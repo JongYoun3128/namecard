@@ -6,7 +6,7 @@ const CARD_CONFIG = {
     personal: {
         name: "손가비",
         title: "회장",
-        company: "포인트그라운드 (POINTGROUND)",
+        company: " POINTGROUND",
         profileImage: "https://via.placeholder.com/150", // 또는 로컬 이미지 경로
         coverImage: "", // 커버 이미지 URL (선택사항)
     },

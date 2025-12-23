@@ -67,7 +67,10 @@ body.style-creative {
     --primary-color: #d946ef;
     --secondary-color: #a855f7;
 }
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
         "Helvetica Neue", Arial, sans-serif;
@@ -176,11 +179,12 @@ body {
 /* 커버 이미지 */
 .cover-image {
     width: 100%;
-    margin-bottom: 100px;
     position: relative;
+    text-align: center;
 }
 .cover-image img {
-    width: 100%;
+    width: 43%;
+    border-radius: 20px;
 }
 .cover-overlay {
     position: absolute;
@@ -191,9 +195,8 @@ body {
 
 /* 프로필 섹션 */
 .profile-section {
-    text-align: center;
+    text-align: left;
     padding: 0 40px 30px;
-    margin-top: -75px;
     position: relative;
 }
 
@@ -241,22 +244,22 @@ body {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 8px;
-    color: var(--text-primary);
+    color: #cfb53b;
 }
 
 .title {
-    font-size: 1.2rem;
-    color: var(--primary-color);
-    font-weight: 600;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #cfb53b;
     margin-bottom: 8px;
 }
 
 .company {
     font-size: 1rem;
-    color: var(--text-secondary);
+    color: #cfb53b;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 8px;
 }
 
@@ -385,7 +388,7 @@ body {
 }
 .contact-value {
     font-size: 0.95rem;
-    color: var(--text-primary);
+    color: #cfb53b;
     font-weight: 600;
 }
 
@@ -541,7 +544,9 @@ body {
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
 }
-
+.qr-code-wrapper1 {
+    text-align: center;
+}
 #qrcode {
     display: flex;
     justify-content: center;
@@ -1382,7 +1387,9 @@ body {
     .social-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-
+    .profile-section p {
+        margin-bottom: 10px;
+    }
     .share-options {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1394,6 +1401,17 @@ body {
     }
     .qr-code-wrapper img {
         width: 100%;
+    }
+    .qr-code-wrapper1 img {
+        width: 50%;
+    }
+
+    .cover-image img {
+        width: 100%;
+        border-radius: 0;
+    }
+    .container {
+        padding: 0;
     }
 }
 
