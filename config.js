@@ -113,7 +113,7 @@ TEL;TYPE=FAX:${config.contact.fax}`;
 EMAIL:${config.contact.email}
 ADR;TYPE=WORK:;;${config.contact.address};;;한국
 URL:${config.contact.website}
-NOTE:${config.bio.text}
+NOTE:${config.contact.mobile}
 END:VCARD`;
 
     return vcard;
