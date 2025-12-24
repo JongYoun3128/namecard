@@ -391,6 +391,42 @@ body {
     color: #cfb53b;
     font-weight: 600;
 }
+.lang-flags {
+    position: fixed;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+    background: var(--card-bg);
+    border-radius: 999px;
+    box-shadow: var(--shadow);
+    z-index: 1500;
+}
+
+.lang-flags button {
+    background: none;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    padding: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.lang-flags img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: block;
+}
+
+.lang-flags button:hover {
+    transform: scale(1.1);
+}
+
+.lang-flags button.active {
+    border-color: #2563eb;
+}
 
 /* SNS 섹션 */
 .social-section {
