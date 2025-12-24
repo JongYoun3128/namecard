@@ -288,20 +288,20 @@ function showNotification(message, duration = 3000) {
     }, duration);
 }
 
-// PWA 홈 화면 추가 안내
-if (window.matchMedia("(display-mode: standalone)").matches) {
-    console.log("✅ PWA 모드로 실행 중입니다!");
-} else {
-    // 홈 화면 추가 안내 (iOS Safari)
-    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-    if (isIOS) {
-        setTimeout(() => {
-            const addToHome = confirm(
-                '홈 화면에 추가하시면 앱처럼 사용할 수 있습니다.\n\n공유 버튼 → "홈 화면에 추가"를 선택하세요.'
-            );
-        }, 5000);
-    }
-}
+// // PWA 홈 화면 추가 안내
+// if (window.matchMedia("(display-mode: standalone)").matches) {
+//     console.log("✅ PWA 모드로 실행 중입니다!");
+// } else {
+//     // 홈 화면 추가 안내 (iOS Safari)
+//     const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+//     if (isIOS) {
+//         setTimeout(() => {
+//             const addToHome = confirm(
+//                 '홈 화면에 추가하시면 앱처럼 사용할 수 있습니다.\n\n공유 버튼 → "홈 화면에 추가"를 선택하세요.'
+//             );
+//         }, 5000);
+//     }
+// }
 
 // 연락처 항목 클릭시 진동 피드백 (모바일)
 document.querySelectorAll(".contact-item").forEach((item) => {
