@@ -46,52 +46,6 @@ const CARD_CONFIG = {
     },
 };
 
-// 설정을 HTML에 적용하는 함수
-function applyConfig() {
-    // // 기본 정보
-    // document.querySelector(".name").textContent = CARD_CONFIG.personal.name;
-    // document.querySelector(".title").textContent = CARD_CONFIG.personal.title;
-    // document.querySelector(
-    //     ".company"
-    // ).innerHTML = ` ${CARD_CONFIG.personal.company}`;
-
-    // // 연락처
-    // const contactItems = document.querySelectorAll(".contact-item");
-    // contactItems[0].querySelector(".contact-value").textContent =
-    //     CARD_CONFIG.contact.mobile;
-    // contactItems[0].setAttribute(
-    //     "onclick",
-    //     `window.location.href='tel:${CARD_CONFIG.contact.mobile}'`
-    // );
-
-    // contactItems[1].querySelector(".contact-value").textContent =
-    //     CARD_CONFIG.contact.email;
-    // contactItems[1].setAttribute(
-    //     "onclick",
-    //     `window.location.href='mailto:${CARD_CONFIG.contact.email}'`
-    // );
-
-    // contactItems[2].querySelector(".contact-value").textContent =
-    //     CARD_CONFIG.contact.company;
-
-    // 팩스가 없으면 숨기기
-    // if (CARD_CONFIG.contact.fax && CARD_CONFIG.contact.fax !== "") {
-    //     contactItems[3].querySelector(".contact-value").textContent =
-    //         CARD_CONFIG.contact.fax;
-    //     contactItems[3].style.display = "flex";
-    // } else {
-    //     contactItems[3].style.display = "none";
-    // }
-
-    // contactItems[4].querySelector(".contact-value").textContent =
-    //     CARD_CONFIG.contact.address;
-    // contactItems[5].querySelector(".contact-value").textContent =
-    //     CARD_CONFIG.contact.website;
-
-    // 공유 URL
-    document.getElementById("shareUrl").value = CARD_CONFIG.share.url;
-}
-
 // vCard 생성 함수
 function generateVCard() {
     const config = CARD_CONFIG;
@@ -117,11 +71,4 @@ NOTE:${config.contact.mobile}
 END:VCARD`;
 
     return vcard;
-}
-
-// DOM 로드 후 설정 적용
-if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", applyConfig);
-} else {
-    applyConfig();
 }

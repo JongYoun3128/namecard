@@ -558,6 +558,7 @@ body {
     text-align: center;
     box-shadow: var(--shadow);
     animation: slideUp 0.6s ease 0.2s both;
+    margin-bottom: 30px;
 }
 
 .qr-section h3 {

@@ -387,85 +387,26 @@
                     </div>
                 </div>
             </div>
-
             <!-- QR 코드 섹션 -->
             <div class="qr-section" id="qrSection">
-                <h3>
+                <h3 data-i18n="qr.title">
                     <i class="fas fa-qrcode"></i>
                     QR 코드로 명함 공유하기
                 </h3>
+
                 <div class="qr-code-wrapper">
                     <a
                         href="https://jongyoun3128.github.io/namecard/"
                         target="_blank"
-                        ><img src="images/qrcode1.jpg" alt=""
-                    /></a>
+                    >
+                        <img src="images/qrcode1.jpg" alt="" />
+                    </a>
                 </div>
-                <p class="qr-description">
-                    QR 코드를 스캔하면 이 명함을 바로 볼 수 있습니다
-                </p>
-            </div>
-        </div>
 
-        <!-- 공유 모달 -->
-        <div class="modal" id="shareModal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2>명함 공유하기</h2>
-                    <button class="close-btn" id="closeShareModal">
-                        <i class="fas fa-times"></i>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="share-options">
-                        <button class="share-option kakao" id="shareKakao">
-                            <i class="fas fa-comment"></i>
-                            <span>카카오톡</span>
-                        </button>
-                        <button
-                            class="share-option facebook"
-                            id="shareFacebook"
-                        >
-                            <i class="fab fa-facebook-f"></i>
-                            <span>페이스북</span>
-                        </button>
-                        <button class="share-option twitter" id="shareTwitter">
-                            <i class="fab fa-twitter"></i>
-                            <span>트위터</span>
-                        </button>
-                        <button class="share-option line" id="shareLine">
-                            <i class="fab fa-line"></i>
-                            <span>라인</span>
-                        </button>
-                        <button class="share-option band" id="shareBand">
-                            <i class="fas fa-users"></i>
-                            <span>밴드</span>
-                        </button>
-                        <button class="share-option email" id="shareEmail">
-                            <i class="fas fa-envelope"></i>
-                            <span>이메일</span>
-                        </button>
-                        <button class="share-option sms" id="shareSMS">
-                            <i class="fas fa-sms"></i>
-                            <span>SMS</span>
-                        </button>
-                        <button class="share-option link" id="copyLink">
-                            <i class="fas fa-link"></i>
-                            <span>링크 복사</span>
-                        </button>
-                    </div>
-                    <div class="share-link">
-                        <input
-                            type="text"
-                            id="shareUrl"
-                            readonly
-                            value="https://yourcard.com/user123"
-                        />
-                        <button id="copyUrlBtn">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-                </div>
+                <p class="qr-description" data-i18n="qr.desc">
+                    QR 코드를 스캔하면<br />
+                    이 명함을 바로 볼 수 있습니다
+                </p>
             </div>
         </div>
 

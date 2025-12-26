@@ -64,35 +64,6 @@ function initEventListeners() {
         closeModal("styleModal")
     );
 
-    // URL 복사
-    elements.copyUrlBtn.addEventListener("click", copyUrlToClipboard);
-    document
-        .getElementById("copyLink")
-        .addEventListener("click", copyUrlToClipboard);
-
-    // 공유 옵션들
-    document
-        .getElementById("shareKakao")
-        .addEventListener("click", () => shareVia("kakao"));
-    document
-        .getElementById("shareFacebook")
-        .addEventListener("click", () => shareVia("facebook"));
-    document
-        .getElementById("shareTwitter")
-        .addEventListener("click", () => shareVia("twitter"));
-    document
-        .getElementById("shareLine")
-        .addEventListener("click", () => shareVia("line"));
-    document
-        .getElementById("shareBand")
-        .addEventListener("click", () => shareVia("band"));
-    document
-        .getElementById("shareEmail")
-        .addEventListener("click", () => shareVia("email"));
-    document
-        .getElementById("shareSMS")
-        .addEventListener("click", () => shareVia("sms"));
-
     // 스타일 선택
     document.querySelectorAll(".style-option").forEach((option) => {
         option.addEventListener("click", function () {
