@@ -1,141 +1,91 @@
 {
     "ko": {
-        "profile": {
-            "company": "POINTGROUND",
-            "title": "회장",
-            "name": "손가비",
-            "address": "서울특별시 금천구 벚꽃로 286 삼성리더스타워 1101호"
-        },
-        "action": {
-            "save": "연락처 저장",
-            "share": "명함 공유",
-            "qr": "QR 코드"
+        "hero": {
+            "main": "설명하지 않아도<br>이해되는 전자명함",
+            "sub": "QR 하나로 소개·신뢰·연락까지 한 번에 전달하세요.",
+            "point": "국내·해외 고객에게 바로 전달 가능한 다국어 전자명함",
+            "cta": "명함을 바꾸면, 결과가 달라집니다."
         }
     },
 
     "en": {
-        "profile": {
-            "company": "POINTGROUND",
-            "title": "Chairman",
-            "name": "Gabi Son",
-            "address": "1101, Samsung Leader Star Tower, 286 Beotkkot-ro, Geumcheon-gu, Seoul, South Korea"
-        },
-        "action": {
-            "save": "Save Contact",
-            "share": "Share Card",
-            "qr": "QR Code"
+        "hero": {
+            "main": "A digital business card that needs no explanation",
+            "sub": "Share introduction, trust, and contact information at once with a single QR code.",
+            "point": "A multilingual digital business card ready for both local and global clients",
+            "cta": "Change your business card. Change the result."
         }
     },
 
     "ja": {
-        "profile": {
-            "company": "POINTGROUND",
-            "title": "会長",
-            "name": "ソン・ガビ",
-            "address": "大韓民国 ソウル特別市 衿川区 桜花路286 サムスンリーダースタワー1101号"
-        },
-        "action": {
-            "save": "連絡先を保存",
-            "share": "名刺を共有",
-            "qr": "QRコード"
+        "hero": {
+            "main": "説明しなくても伝わるデジタル名刺",
+            "sub": "QRコードひとつで、紹介・信頼・連絡先を一度に伝えられます。",
+            "point": "国内・海外のお客様にそのまま送れる多言語デジタル名刺",
+            "cta": "名刺を変えれば、結果が変わります。"
         }
     },
 
     "zh": {
-        "profile": {
-            "company": "POINTGROUND",
-            "title": "董事长",
-            "name": "孙嘉比",
-            "address": "韩国 首尔特别市 衿川区 樱花路286号 三星Leader Star大厦1101室"
-        },
-        "action": {
-            "save": "保存联系人",
-            "share": "分享名片",
-            "qr": "二维码"
+        "hero": {
+            "main": "无需说明也能理解的电子名片",
+            "sub": "通过一个二维码，一次性传递介绍、信任与联系方式。",
+            "point": "可直接发送给国内外客户的多语言电子名片",
+            "cta": "改变名片，结果就会不同。"
         }
     },
 
     "fr": {
-        "profile": {
-            "company": "POINTGROUND",
-            "title": "Président",
-            "name": "Gabi Son",
-            "address": "1101, Samsung Leader Star Tower, 286 Beotkkot-ro, Geumcheon-gu, Séoul, Corée du Sud"
-        },
-        "action": {
-            "save": "Enregistrer le contact",
-            "share": "Partager la carte",
-            "qr": "Code QR"
+        "hero": {
+            "main": "Une carte de visite numérique qui se comprend sans explication",
+            "sub": "Un seul QR code pour partager présentation, confiance et contact en une fois.",
+            "point": "Une carte de visite numérique multilingue pour les clients locaux et internationaux",
+            "cta": "Changez votre carte de visite. Les résultats changeront."
         }
     },
 
     "de": {
-        "profile": {
-            "company": "POINTGROUND",
-            "title": "Vorsitzender",
-            "name": "Gabi Son",
-            "address": "Samsung Leader Star Tower 1101, Beotkkot-ro 286, Geumcheon-gu, Seoul, Südkorea"
-        },
-        "action": {
-            "save": "Kontakt speichern",
-            "share": "Visitenkarte teilen",
-            "qr": "QR-Code"
+        "hero": {
+            "main": "Eine digitale Visitenkarte, die keine Erklärung braucht",
+            "sub": "Mit nur einem QR-Code Vorstellung, Vertrauen und Kontakt auf einmal teilen.",
+            "point": "Eine mehrsprachige digitale Visitenkarte für nationale und internationale Kunden",
+            "cta": "Ändern Sie Ihre Visitenkarte. Ändern Sie das Ergebnis."
         }
     },
 
     "es": {
-        "profile": {
-            "company": "POINTGROUND",
-            "title": "Presidente",
-            "name": "Gabi Son",
-            "address": "1101, Samsung Leader Star Tower, 286 Beotkkot-ro, Geumcheon-gu, Seúl, Corea del Sur"
-        },
-        "action": {
-            "save": "Guardar contacto",
-            "share": "Compartir tarjeta",
-            "qr": "Código QR"
+        "hero": {
+            "main": "Una tarjeta digital que se entiende sin explicaciones",
+            "sub": "Con un solo código QR, comparta presentación, confianza y contacto a la vez.",
+            "point": "Una tarjeta digital multilingüe para clientes nacionales e internacionales",
+            "cta": "Cambia tu tarjeta. Cambian los resultados."
         }
     },
 
     "it": {
-        "profile": {
-            "company": "POINTGROUND",
-            "title": "Presidente",
-            "name": "Gabi Son",
-            "address": "Samsung Leader Star Tower 1101, Beotkkot-ro 286, Geumcheon-gu, Seoul, Corea del Sud"
-        },
-        "action": {
-            "save": "Salva contatto",
-            "share": "Condividi biglietto",
-            "qr": "Codice QR"
+        "hero": {
+            "main": "Un biglietto da visita digitale che non ha bisogno di spiegazioni",
+            "sub": "Con un solo QR code, condividi presentazione, fiducia e contatti in un attimo.",
+            "point": "Un biglietto da visita digitale multilingue per clienti locali e internazionali",
+            "cta": "Cambia il tuo biglietto da visita. Cambia il risultato."
         }
     },
 
     "pt": {
-        "profile": {
-            "company": "POINTGROUND",
-            "title": "Presidente",
-            "name": "Gabi Son",
-            "address": "1101, Samsung Leader Star Tower, 286 Beotkkot-ro, Geumcheon-gu, Seul, Coreia do Sul"
-        },
-        "action": {
-            "save": "Salvar contato",
-            "share": "Compartilhar cartão",
-            "qr": "Código QR"
+        "hero": {
+            "main": "Um cartão digital que dispensa explicações",
+            "sub": "Com um único QR Code, compartilhe apresentação, confiança e contato de uma vez.",
+            "point": "Um cartão digital multilíngue para clientes nacionais e internacionais",
+            "cta": "Mude seu cartão. Mude os resultados."
         }
     },
 
     "ru": {
-        "profile": {
-            "company": "POINTGROUND",
-            "title": "Председатель",
-            "name": "Габи Сон",
-            "address": "Республика Корея, Сеул, Кымчхон-гу, Beotkkot-ro 286, Samsung Leader Star Tower, офис 1101"
-        },
-        "action": {
-            "save": "Сохранить контакт",
-            "share": "Поделиться визиткой",
-            "qr": "QR-код"
+        "hero": {
+            "main": "Цифровая визитка, не требующая объяснений",
+            "sub": "Один QR-код — и вся информация, доверие и контакты передаются сразу.",
+            "point": "Многоязычная цифровая визитка для клиентов в стране и за рубежом",
+            "cta": "Измените визитку — изменятся и результаты."
         }
     }
 }

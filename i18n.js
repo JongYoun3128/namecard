@@ -13,7 +13,7 @@ function applyLanguage(lang) {
     document.querySelectorAll("[data-i18n]").forEach((el) => {
         const key = el.dataset.i18n;
         const value = getValue(data, key);
-        if (value) el.innerText = value;
+        if (value) el.innerHTML = value;
     });
 
     localStorage.setItem("lang", lang);

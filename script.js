@@ -64,18 +64,6 @@ function initEventListeners() {
         closeModal("styleModal")
     );
 
-    // 연락처 저장
-    elements.saveContact.addEventListener("click", saveContactToDevice);
-
-    // 공유 모달
-    elements.shareBtn.addEventListener("click", () => openModal("shareModal"));
-    elements.closeShareModal.addEventListener("click", () =>
-        closeModal("shareModal")
-    );
-
-    // QR 코드 표시
-    elements.qrBtn.addEventListener("click", scrollToQR);
-
     // URL 복사
     elements.copyUrlBtn.addEventListener("click", copyUrlToClipboard);
     document
