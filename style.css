@@ -1107,6 +1107,7 @@ body {
 .package-btn {
     display: inline-flex;
     align-items: center;
+    text-align: center;
     gap: 8px;
     padding: 14px 28px;
     background: linear-gradient(
@@ -1442,8 +1443,6 @@ body {
     }
 
     .package-btn {
-        width: 100%;
-        padding: 12px 20px;
         font-size: 0.95rem;
     }
 }
