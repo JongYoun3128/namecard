@@ -1099,6 +1099,39 @@ body {
     margin: 0;
 }
 
+.pricing-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.package-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 28px;
+    background: linear-gradient(
+        135deg,
+        var(--primary-color),
+        var(--secondary-color)
+    );
+    color: white;
+    text-decoration: none;
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+}
+
+.package-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+}
+
+.package-btn i {
+    font-size: 0.95rem;
+}
+
 /* 진행 방식 */
 .process-section {
     padding: 40px;
@@ -1406,6 +1439,12 @@ body {
     .cta-btn {
         width: 100%;
         justify-content: center;
+    }
+
+    .package-btn {
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 0.95rem;
     }
 }
 
