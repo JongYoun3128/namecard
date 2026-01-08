@@ -1110,11 +1110,7 @@ body {
     text-align: center;
     gap: 8px;
     padding: 14px 28px;
-    background: linear-gradient(
-        135deg,
-        var(--primary-color),
-        var(--secondary-color)
-    );
+    background: red;
     color: white;
     text-decoration: none;
     border-radius: var(--radius-md);
