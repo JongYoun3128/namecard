@@ -102,13 +102,11 @@ body {
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 1.3rem;
-    font-weight: 700;
+    width: 20%;
 }
-
+.logo img {
+    width: 100%;
+}
 .logo i {
     font-size: 1.5rem;
 }
@@ -1447,7 +1445,9 @@ body {
     .logo span {
         display: none;
     }
-
+    .logo {
+        width: 40%;
+    }
     .name {
         font-size: 1.6rem;
     }
