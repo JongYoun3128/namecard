@@ -940,7 +940,7 @@ body {
 
 .pricing-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     margin-top: 30px;
 }
@@ -962,7 +962,6 @@ body {
 }
 
 .pricing-card.featured {
-    border-color: var(--primary-color);
     border-width: 3px;
     box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
 }
